@@ -135,7 +135,7 @@ class IdeSvc {
   }
 
   openIde(workspaceId: string): void {
-    (this.$rootScope as any).hideNavbar = false;
+    (this.$rootScope as any).hideNavbar = true;
 
     this.updateRecentWorkspace(workspaceId);
 

@@ -159,7 +159,7 @@ export class CheNavBarController {
    * Toggle the left menu
    */
   toggleLeftMenu(): void {
-    this.$mdSidenav('left').toggle();
+    this.$mdSidenav('left').close();
   }
 
   /**
