@@ -66,27 +66,27 @@ public class PanelSelectorPresenter implements Presenter, PanelSelectorView.Acti
 
   @Override
   public void onSelectorLeftBottomClicked() {
-    showPanels(true, true, false);
+    showPanels(true, false, false);
   }
 
   @Override
   public void onSelectorFullEditorClicked() {
-    showPanels(false, false, false);
+    showPanels(true, false, false);
   }
 
   @Override
   public void onSelectorBottomClicked() {
-    showPanels(false, true, false);
+    showPanels(true, false, false);
   }
 
   @Override
   public void onSelectorRightClicked() {
-    showPanels(false, false, true);
+    showPanels(true, false, false);
   }
 
   @Override
   public void onSelectorLeftRightBottomClicked() {
-    showPanels(true, true, true);
+    showPanels(true, false, false);
   }
 
   /**
