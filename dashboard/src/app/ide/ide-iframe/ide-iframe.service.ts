@@ -66,8 +66,8 @@ class IdeIFrameSvc {
         });
 
       } else if ('show-navbar' === event.data) {
-        $rootScope.hideNavbar = false;
-        $mdSidenav('left').open();
+        $rootScope.hideNavbar = true;
+        $mdSidenav('left').close();
 
       } else if ('hide-navbar' === event.data) {
         $rootScope.hideNavbar = true;
